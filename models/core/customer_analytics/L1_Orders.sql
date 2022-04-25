@@ -1,6 +1,6 @@
 {{ config(materialized='view') }}
 -- v závěru kódu je vstupní soubor povinných hodnot
-
+--neco noveho
 SELECT 
   -- věci, které je potřeba vyplnit manuálně 
   true as order_online,
