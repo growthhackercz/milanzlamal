@@ -1,0 +1,7 @@
+version: 2
+
+sources:
+  - name: spanario
+    database: growthhackercz
+    tables:
+      - name: L0_Shoptet_Stocks

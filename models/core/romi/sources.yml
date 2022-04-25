@@ -1,0 +1,25 @@
+version: 2
+
+sources:
+  - name: spanario
+    database: growthhackercz
+    tables:
+      - name: L0_CCG
+      - name: L0_FB_Ads_Campaigns_insights
+      - name: L0_GA_Google_Ads
+      - name: L0_GA_Accounts
+      - name: L0_GA_Acquisition
+      - name: L0_GA_Goals_10
+      - name: L0_GA_Goals_20
+      - name: L0_Heureka_Costs
+      - name: L0_Sklik_Accounts
+      - name: L0_Sklik_Campaigns
+      - name: L0_Sklik_Campaigns_Stats
+      - name: L0_ROMI_Additional_Costs
+      - name: L0_Zbozi_Stats
+      - name: L0_Zbozi_Categories
+      - name: L0_acq-trans
+  - name: auxiliary_tables_EU
+    database: growthhackercz
+    tables:
+      - name: L0_Calendar
